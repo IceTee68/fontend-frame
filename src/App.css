@@ -1,0 +1,173 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  margin: 0px 250px 250px 250px;
+  border-bottom: 3px solid #000;
+}
+
+header{
+  display: flex;
+  background-color: #00AD67;
+  height: 250px;
+  align-items: center;
+}
+
+.avatar{
+  height: 175px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+header p, header h1{
+  color: white;
+}
+
+header h1{
+  font-size: 48px;
+  padding-bottom: 10px;
+}
+
+header p {
+  font-size: 20px;
+}
+
+section.contact {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border-top: 3px solid #000000;
+  border-bottom: 3px solid #000000;
+
+  
+}
+
+section.contact label{
+  padding-right: 148px;
+}
+
+ h2{
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+section.objectives{
+  padding: 20px 0 30px 0;
+}
+
+.skills ul li{
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+} 
+
+.skills ul li .skill_prog{
+  width: 300px;
+  height: 5px;
+  position: relative;
+  background-color: rgb(223, 223, 223);
+}
+
+.skills ul li .skill_prog span{
+  position: absolute;
+  height: 100%;   
+  background: #00AE66;
+  
+}
+
+.skill_name{
+  width: 64px;
+}
+
+.nodejs, .vuejs, .php{
+  width: 0%;
+}
+
+.chung-chi p{
+  color: #00AE66;
+  font-weight: 600;
+}
+
+.chung-chi label{
+  color: gray;
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.flex-container section{
+  width: 50%;
+}
+
+.education p {
+  color: gray;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.jobs p {
+  color: gray;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+section.award p{
+  color: gray;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+p.color-green{
+  color: #00AE66 !important;
+  font-weight: 600 !important;
+}
+
+p.color-black{
+  color: #000000 !important;
+  font-weight: 600 !important;
+}
+
+.color-gray{
+  color: gray !important;
+  font-weight: 300 !important;
+  font-size: 14px !important;
+}
+
+section.flex-container section{
+  padding-bottom: 20px;
+}
+
+section.hobbies ul>li{
+  float: left;
+  padding-right: 30px;
+}
+
+.form-skills{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+
+
+
+
+ 
+
+
+
+
+
+
+
